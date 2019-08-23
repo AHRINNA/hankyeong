@@ -1,0 +1,13 @@
+package com.biz.var;
+
+public class Float_Int_01 {
+	public static void main(String[] args) {
+		float fNum=0;
+		int intNum=0;
+		
+		fNum=intNum;
+		intNum=fNum;
+		System.out.println(fNum);
+		System.out.println(intNum);
+	}
+}

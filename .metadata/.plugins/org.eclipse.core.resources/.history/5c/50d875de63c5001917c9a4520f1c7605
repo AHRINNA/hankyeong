@@ -1,0 +1,9 @@
+package com.biz.var;
+
+public class String_05 {
+	public static void main(String[] args) {
+		String n1="대", n2="한", n3="민", n4="국";
+		
+		System.out.println(n1+n2+n3+n4);
+	}
+}

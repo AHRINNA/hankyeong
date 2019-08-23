@@ -1,0 +1,15 @@
+package com.biz.var;
+
+public class Print_02 {
+	public static void main(String[] args) {
+		
+		int num1=30, num2=40;
+		
+		System.out.println(num1 + " + " + num2 + " = " + num1 + num2);
+		System.out.print(num1 + " + " + num2 + " = " + num1 + num2);
+		// c언어 printf(%d" % "%d" = "%d, num1, num2, num1%num2);
+		// Java의 +는 문자열 연결에 쓰일 수 있다. 이 경우엔 연산자로 쓰이지 않는다
+		// Java는 선언문과 연산문을 한 문장에 쓸 수 있다
+		
+	}
+}

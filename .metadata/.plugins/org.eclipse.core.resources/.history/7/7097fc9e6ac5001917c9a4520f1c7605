@@ -1,0 +1,12 @@
+package com.biz.var;
+
+public class Float_Int_01 {
+	public static void main(String[] args) {
+		float fNum=0;
+		int intNum=0;
+		
+		fNum=intNum;
+		// intNum=fNum; // Type Mismatch 발생. 작은 값에 큰 값을 넣을 수 없다
+		System.out.println(fNum);
+	}
+}

@@ -1,0 +1,12 @@
+package com.biz.var;
+
+public class FloatVar_03 {
+	public static void main(String[] args) {
+		int intKor=90, intEng=87, intMath=67, intSum=intKor+intEng+intMath;
+		float fAvg=intSum/3.0f;
+		System.out.printf("=============\n     성적표\n-------------\n");
+		System.out.printf("국어점수 : %d\n영어점수 : %d\n수학점수 : %d\n"
+				+"-------------\n총점 : %d\n평균 : %5.2f", intKor,intEng,
+				intMath,intSum,fAvg);
+	}// %d는 ESCAPE 문자열 중 하나
+}

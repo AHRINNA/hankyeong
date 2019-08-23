@@ -1,0 +1,11 @@
+package com.biz.var;
+
+public class LongVar_01 {
+
+	public static void main(String[] args) {
+		
+		long num1=0;
+		num1=999_999_999_999_999_999_999_999_999_999_999_999;
+		System.out.println(num1);
+	}
+}

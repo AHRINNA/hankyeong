@@ -1,0 +1,16 @@
+
+public class HelloKorea {
+	public static void main(String[] args) {
+		System.out.println("Republic of Korea");
+		
+		int i = 0;
+		// 전항연산자와 후항연산자의 비교
+		for(i = 0; i<3; i++)
+			{System.out.println(i);
+			}
+		
+		for(i=0;i<3;++i)
+			{System.out.println(i);
+			}
+	}
+}

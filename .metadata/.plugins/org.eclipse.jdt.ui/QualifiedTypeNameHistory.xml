@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="com.biz.classes.book.Book"/>
 <fullyQualifiedTypeName name="com.biz.classes.grade.GradeNew"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.biz.arryas.model.MemberVO"/>
 </qualifiedTypeNameHistroy>

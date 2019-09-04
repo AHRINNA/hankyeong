@@ -8,4 +8,7 @@
 <fullyQualifiedTypeName name="com.biz.classes.grade.GradeNew"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.biz.arryas.model.MemberVO"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.biz.list.service.GradeService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

@@ -11,4 +11,6 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.biz.list.service.GradeService"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.biz.list.model.IolistVO"/>
+<fullyQualifiedTypeName name="com.biz.list.service.IolistServiceImp"/>
 </qualifiedTypeNameHistroy>

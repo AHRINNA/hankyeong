@@ -50,8 +50,8 @@ public class StudentScoreServiceImpV1 implements StudentScoreService {
 					temp = voi;
 					voi = voj;
 					voj = temp;
-					studentScore.set(i, voi);
-					studentScore.set(j, voj);
+					studentScore.set(i, voi); // List.set(index, value)
+					studentScore.set(j, voj); // List.set(index, value)
 				}
 			}
 		}

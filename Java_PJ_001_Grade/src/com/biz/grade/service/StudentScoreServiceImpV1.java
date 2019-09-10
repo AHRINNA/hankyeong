@@ -8,8 +8,8 @@ import com.biz.grade.model.StudentScoreVO;
 
 public class StudentScoreServiceImpV1 implements StudentScoreService {
 
-	List<StudentScoreVO> studentScore;
-	Random rand;
+	protected List<StudentScoreVO> studentScore;
+	protected Random rand;
 
 	public StudentScoreServiceImpV1() {
 		studentScore = new ArrayList<StudentScoreVO>();

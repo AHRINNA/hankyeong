@@ -17,4 +17,5 @@
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.biz.string.domain.ScoreVO"/>
 </qualifiedTypeNameHistroy>

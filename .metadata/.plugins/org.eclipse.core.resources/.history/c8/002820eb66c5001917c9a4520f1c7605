@@ -1,8 +1,0 @@
-package com.biz.var;
-
-public class FloatVar_01 {
-	public static void main(String[] args) {
-		float fNum1 = 30;
-		System.out.println(fNum1);
-	}
-}

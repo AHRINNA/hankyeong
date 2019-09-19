@@ -1,0 +1,61 @@
+package com.biz.grade.domain;
+
+/* 학번, string
+ * 이름, string
+ * 전화번호, string
+ * 주소, string
+ */
+public class StudentVO {
+	private String num, name, tel, addr;
+
+	public StudentVO(String num, String name, String tel, String addr) {
+		super();
+		this.num = num;
+		this.name = name;
+		this.tel = tel;
+		this.addr = addr;
+	}
+
+	public StudentVO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getNum() {
+		return num;
+	}
+
+	public void setNum(String num) {
+		this.num = num;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getTel() {
+		return tel;
+	}
+
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+
+	public String getAddr() {
+		return addr;
+	}
+
+	public void setAddr(String addr) {
+		this.addr = addr;
+	}
+
+	@Override
+	public String toString() {
+		return "StudentVO [num=" + num + ", name=" + name + ", tel=" + tel + ", addr=" + addr + "]";
+	}
+
+}

@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.biz.classes.search.SearchSub"/>
-<fullyQualifiedTypeName name="com.biz.classes.grade.StaticGrade"/>
-<fullyQualifiedTypeName name="com.biz.classes.student.student"/>
-<fullyQualifiedTypeName name="com.biz.classes.book.Book"/>
-<fullyQualifiedTypeName name="com.biz.classes.grade.GradeNew"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="com.biz.arryas.model.MemberVO"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="com.biz.list.service.GradeService"/>
-<fullyQualifiedTypeName name="com.biz.list.model.IolistVO"/>
-<fullyQualifiedTypeName name="com.biz.list.service.IolistServiceImp"/>
-<fullyQualifiedTypeName name="com.biz.iolist.service.IolistService"/>
-<fullyQualifiedTypeName name="com.biz.iolist.model.IolistVO"/>
+<fullyQualifiedTypeName name="com.biz.grade.util.StudentIDX"/>
+<fullyQualifiedTypeName name="com.biz.grade.domain.StudentVO"/>
+<fullyQualifiedTypeName name="com.biz.grade.util.ScoreIDX"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="com.biz.grade.util.LineMake"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="com.biz.string.domain.ScoreVO"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="com.biz.service.FileReaderServiceV2"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

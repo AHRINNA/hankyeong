@@ -1,8 +1,0 @@
-package com.biz.var;
-
-public class Print_03 {
-	public static void main(String[] args) {
-		int num=3;
-		System.out.printf("%d x %d = %d\n", num, num, num);
-	}
-}

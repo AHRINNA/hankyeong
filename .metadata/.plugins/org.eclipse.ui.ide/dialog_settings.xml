@@ -5,6 +5,7 @@
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\BizWork\javaworks\hankyeong\Java_23_BankWork_02"/>
 			<item value="C:\BizWork\javaworks\hankyeong"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

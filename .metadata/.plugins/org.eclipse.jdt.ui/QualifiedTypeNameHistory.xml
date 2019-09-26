@@ -9,7 +9,6 @@
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.sql.Time"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -17,5 +16,11 @@
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="com.biz.bank.util.BankInfo.REMARK"/>
+<fullyQualifiedTypeName name="com.biz.iolist.MakeProductServiceV1"/>
+<fullyQualifiedTypeName name="com.biz.iolist.service.MakeProductServiceV2"/>
+<fullyQualifiedTypeName name="com.biz.iolist.service.WriteProductService"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="blackjack.service.BlackjackService.CLS"/>
 </qualifiedTypeNameHistroy>

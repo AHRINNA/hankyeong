@@ -19,8 +19,11 @@
 <fullyQualifiedTypeName name="com.biz.iolist.MakeProductServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.iolist.service.MakeProductServiceV2"/>
 <fullyQualifiedTypeName name="com.biz.iolist.service.WriteProductService"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="blackjack.service.BlackjackService.CLS"/>
+<fullyQualifiedTypeName name="com.biz.word.service.WordListMakeService"/>
+<fullyQualifiedTypeName name="com.biz.word.service.WordQuizServiceV1"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.biz.word.service.WordQuizServiceV2"/>
 </qualifiedTypeNameHistroy>

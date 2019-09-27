@@ -29,7 +29,8 @@ public class IolistService {
 		String str = br.readLine(); 임의의 상품정보이므로 파일에서 읽어오는게 아니라
 		readProduct를 먼저 선행하고 생성된 proList에서 끌어온다 */
 		this.readProduct(proFileName);
-		Collections.shuffle(proList);
+		Collections.shuffle(proList); // 콜렉션 셔플을 사용해도 되고 random을 생성해도 된다
+		// random을 사용하려면 proList.size() 범위 내에서 난수를 생성해야한다
 		for(int i = 0; i < 20; i++) {
 			String date = "2019-09-26";
 			String s[] = proList.get(i).split(":");
@@ -43,7 +44,11 @@ public class IolistService {
 			buyList.add(bVO);
 		}
 	}
-
+	
+	/*
+	 * 과자정보.txt 파일을 읽어서 상품이름:가격 형식의 문자열을 리스트로 생성하는 메소드
+	 * -> proList 상품이름:가격   
+	 */
 	public void readProduct(String proFileName) throws Exception {
 		proList = new ArrayList<String>();
 		FileReader fr = new FileReader(proFileName);

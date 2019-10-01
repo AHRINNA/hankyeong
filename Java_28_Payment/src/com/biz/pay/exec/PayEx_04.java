@@ -6,7 +6,6 @@ import com.biz.pay.service.PaperReadServiceV1;
 public class PayEx_04 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		PaperReadServiceV1 prs = new PaperReadServiceV1();
 		PaperPrintServiceV1 pps = new PaperPrintServiceV1();
 		

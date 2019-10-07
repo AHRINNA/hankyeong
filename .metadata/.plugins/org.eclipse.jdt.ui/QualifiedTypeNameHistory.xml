@@ -10,11 +10,7 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.sql.Time"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="com.biz.bank.util.BankInfo.REMARK"/>
 <fullyQualifiedTypeName name="com.biz.iolist.MakeProductServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.iolist.service.MakeProductServiceV2"/>
@@ -34,9 +30,24 @@
 <fullyQualifiedTypeName name="com.biz.pay.service.PaperMakeServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.pay.service.PaperPrintServiceV1"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.biz.jack.service.DeckServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.jack.utils.BlackjackUtils"/>
 <fullyQualifiedTypeName name="com.biz.jack.service.PlayerServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.jack.service.GameServiceV1"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.time.LocalTime"/>
+<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+<fullyQualifiedTypeName name="java.time.temporal.TemporalAdjuster"/>
+<fullyQualifiedTypeName name="java.time.temporal.TemporalAdjusters"/>
+<fullyQualifiedTypeName name="java.time.DayOfWeek"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>

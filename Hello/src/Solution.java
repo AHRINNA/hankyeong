@@ -1,3 +1,4 @@
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 // 기본 제공코드는 임의 수정해도 관계 없습니다. 단, 입출력 포맷 주의
 // 아래 표준 입출력 예제 필요시 참고하세요.
@@ -26,95 +27,69 @@
 //System.out.println(AB);		       				     // long 변수 1개 출력하는 예제
 /////////////////////////////////////////////////////////////////////////////////////////////
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 /*
    사용하는 클래스명이 Solution 이어야 하므로, 가급적 Solution.java 를 사용할 것을 권장합니다.
    이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
  */
-class Solution
-{
-	public static double calc(double dir, int ecnt, int wcnt) {
-		int c = 2;
-		if(ecnt > 1) {
-		for(int i = 0; i < ecnt; i++)
-			c *= 2;
-		dir = dir - (90 / c);
-		}
-		c = 2;
-		if(wcnt > 1) {
-		for(int i = 0; i < wcnt; i++)
-			c *= 2;
-		dir = dir + (90 / c);
-		}
-		return dir;
-	}
-	public static void main(String args[]) throws Exception
-	{
+class Solution {
+	public static void main(String args[]) throws Exception {
 		/*
-		   아래의 메소드 호출은 앞으로 표준 입력(키보드) 대신 input.txt 파일로부터 읽어오겠다는 의미의 코드입니다.
-		   여러분이 작성한 코드를 테스트 할 때, 편의를 위해서 input.txt에 입력을 저장한 후,
-		   이 코드를 프로그램의 처음 부분에 추가하면 이후 입력을 수행할 때 표준 입력 대신 파일로부터 입력을 받아올 수 있습니다.
-		   따라서 테스트를 수행할 때에는 아래 주석을 지우고 이 메소드를 사용하셔도 좋습니다.
-		   단, 채점을 위해 코드를 제출하실 때에는 반드시 이 메소드를 지우거나 주석 처리 하셔야 합니다.
+		 * 아래의 메소드 호출은 앞으로 표준 입력(키보드) 대신 input.txt 파일로부터 읽어오겠다는 의미의 코드입니다. 여러분이 작성한 코드를
+		 * 테스트 할 때, 편의를 위해서 input.txt에 입력을 저장한 후, 이 코드를 프로그램의 처음 부분에 추가하면 이후 입력을 수행할 때
+		 * 표준 입력 대신 파일로부터 입력을 받아올 수 있습니다. 따라서 테스트를 수행할 때에는 아래 주석을 지우고 이 메소드를 사용하셔도 좋습니다.
+		 * 단, 채점을 위해 코드를 제출하실 때에는 반드시 이 메소드를 지우거나 주석 처리 하셔야 합니다.
 		 */
-		//System.setIn(new FileInputStream(&quot;res/input.txt&quot;));
+		// System.setIn(new FileInputStream(&quot;res/input.txt&quot;));
 
 		/*
-		   표준입력 System.in 으로부터 스캐너를 만들어 데이터를 읽어옵니다.
+		 * 표준입력 System.in 으로부터 스캐너를 만들어 데이터를 읽어옵니다.
 		 */
-		Scanner sc = new Scanner(System.in);
-		int T;
-		T=sc.nextInt();
+		// Scanner sc = new Scanner(System.in);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader fbr = new BufferedReader(new FileReader("src/input.txt"));
+		int T;
+		T = Integer.valueOf(br.readLine());
 		/*
-		   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
-		*/
-        int ecount, wcount;
-        double dir;
-		for(int test_case = 1; test_case <= T; test_case++)
-		{
-			ecount = 0;
-			wcount = 0;
-			dir = 0;
-			String s = br.readLine();
-            char[] c = s.toCharArray();
-            if(c[0] == 'n')
-            {
-            	dir = 0;
-            	for(int i = 1; i < c.length; i++) {
-                	if(c[i] == 'n')
-                		ecount++;
-                	else if(c[i] == 'w')
-                		wcount++;
-            	}
-            	if((int)(calc(dir, ecount, wcount)) == calc(dir, ecount, wcount))
-            		System.out.println((int)calc(dir, ecount, wcount));
-            	else
-            		System.out.println();
-            }
-            else if(c[0] == 'w')
-            {
-            	dir = 90;
-                for(int i = 1; i < c.length; i++) {
-                	if(c[i] == 'n')
-                		ecount++;
-                	else if(c[i] == 'w')
-                		wcount++;
-                }
-            	if((int)(calc(dir, ecount, wcount)) == calc(dir, ecount, wcount))
-            		System.out.println((int)calc(dir, ecount, wcount));
-            	else
-            		System.out.println();
-                
-            }
+		 * 여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
+		 */
+
+		int sum, max, min, ref;
+		for (int test_case = 1; test_case <= T; test_case++) {
+			max = 0;
+			min = 10000;
+			String s[] = fbr.readLine().split(" ");
+			int in[] = new int[10];
+			for (int i = 0; i < s.length; i++) {
+                in[i] = Integer.valueOf(s[i]);
+				ref = 1000000;
+				int b;
+				sum = 0;
+
+				while (ref > 10) {
+					if (in[i] > ref) {
+						b = in[i] / ref;
+						sum += b;
+						in[i] -= b * ref;
+					}
+					ref /= 10;
+				}
+				if (sum > max)
+					max = sum;
+				if (sum < min)
+					min = sum;
+			}
+			System.out.printf("#%d %d %d\n", test_case, max, min);
 			/////////////////////////////////////////////////////////////////////////////////////////////
 			/*
-				 이 부분에 여러분의 알고리즘 구현이 들어갑니다.
+			 * 이 부분에 여러분의 알고리즘 구현이 들어갑니다.
 			 */
 			/////////////////////////////////////////////////////////////////////////////////////////////
-
+			// sc.close();
+			br.close();
+			fbr.close();
 		}
 	}
 }

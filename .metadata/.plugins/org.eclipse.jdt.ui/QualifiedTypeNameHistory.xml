@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.biz.grade.util.LineMake"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.sql.Time"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="com.biz.bank.util.BankInfo.REMARK"/>
-<fullyQualifiedTypeName name="com.biz.iolist.MakeProductServiceV1"/>
-<fullyQualifiedTypeName name="com.biz.iolist.service.MakeProductServiceV2"/>
-<fullyQualifiedTypeName name="com.biz.iolist.service.WriteProductService"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="blackjack.service.BlackjackService.CLS"/>
 <fullyQualifiedTypeName name="com.biz.word.service.WordListMakeService"/>
 <fullyQualifiedTypeName name="com.biz.word.service.WordQuizServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.word.service.WordQuizServiceV2"/>
@@ -31,7 +18,6 @@
 <fullyQualifiedTypeName name="com.biz.jack.service.PlayerServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.jack.service.GameServiceV1"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
@@ -56,8 +42,22 @@
 <fullyQualifiedTypeName name="com.biz.books.service.BookReadServiceV1"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.biz.books.service.BookSaveServiceV1"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="com.biz.books.service.ExcelSaveServiceV1"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.biz.dp.domain.ScoreVO.Builder"/>
+<fullyQualifiedTypeName name="lombok.ToString"/>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="lombok.Getter"/>
+<fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+<fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+<fullyQualifiedTypeName name="com.biz.lombok.service.StudentReadServiceV1"/>
+<fullyQualifiedTypeName name="com.biz.lombok.service.StudentViewServiceABS"/>
+<fullyQualifiedTypeName name="com.biz.lombok.service.StudentViewServiceV1"/>
+<fullyQualifiedTypeName name="com.biz.lombok.domain.StudentVO"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="lombok.Builder"/>
 </qualifiedTypeNameHistroy>

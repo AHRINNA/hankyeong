@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.biz.word.service.WordListMakeService"/>
 <fullyQualifiedTypeName name="com.biz.word.service.WordQuizServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.word.service.WordQuizServiceV2"/>
 <fullyQualifiedTypeName name="com.biz.list.service.ListServiceV1"/>
@@ -58,6 +57,7 @@
 <fullyQualifiedTypeName name="com.biz.lombok.service.StudentViewServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.lombok.domain.StudentVO"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="lombok.Builder"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>
